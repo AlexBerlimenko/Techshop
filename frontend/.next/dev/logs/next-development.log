@@ -1,0 +1,59 @@
+[00:00:00.575] Server  LOG      ✓ Ready in 396ms
+[00:00:05.609] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.513] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.531] Browser LOG     AdminPage: No token, redirecting to /auth
+[00:00:09.531] Browser LOG     AdminPage: No token, redirecting to /auth
+[00:00:09.534] Browser LOG     AdminPage: Redirecting to /auth from second useEffect
+[00:00:10.003] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:40.841] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:43.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:44.482] Browser LOG     AdminPage: No token, redirecting to /auth
+[00:00:44.483] Browser LOG     AdminPage: No token, redirecting to /auth
+[00:00:44.483] Browser LOG     AdminPage: Redirecting to /auth from second useEffect
+[00:00:44.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:48.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:49.930] Browser LOG     AdminPage: No token, redirecting to /auth
+[00:00:49.930] Browser LOG     AdminPage: No token, redirecting to /auth
+[00:00:49.931] Browser LOG     AdminPage: Redirecting to /auth from second useEffect
+[00:00:50.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:09.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:10.843] Browser LOG     AdminPage: No token, redirecting to /auth
+[00:01:10.844] Browser LOG     AdminPage: No token, redirecting to /auth
+[00:01:10.846] Browser LOG     AdminPage: Redirecting to /auth from second useEffect
+[00:01:11.043] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:16.235] Server  LOG      ✓ Compiled in 57ms
+[00:01:16.310] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [] [[object Object]]
+[00:01:32.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:32.750] Browser ERROR   unhandledRejection: TypeError: store.setState is not a function
+[00:01:32.750] Browser ERROR   unhandledRejection: TypeError: store.setState is not a function
+[00:01:32.750] Browser ERROR   unhandledRejection: TypeError: store.setState is not a function
+[00:01:47.964] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:48.202] Browser ERROR   unhandledRejection: TypeError: store.setState is not a function
+[00:01:48.202] Browser ERROR   unhandledRejection: TypeError: store.setState is not a function
+[00:01:48.364] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:48.545] Browser ERROR   unhandledRejection: TypeError: store.setState is not a function
+[00:01:48.545] Browser ERROR   unhandledRejection: TypeError: store.setState is not a function
+[00:01:48.709] Browser ERROR   unhandledRejection: TypeError: store.setState is not a function
+[00:01:48.709] Browser ERROR   unhandledRejection: TypeError: store.setState is not a function
+[00:02:21.030] Server  LOG      ✓ Compiled in 20ms
+[00:02:21.143] Browser ERROR   The result of getSnapshot should be cached to avoid an infinite loop
+[00:02:21.143] Browser ERROR   uncaughtError: Error: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
+[00:02:26.857] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:26.883] Server  LOG      ✓ Compiled in 19ms
+[00:02:27.225] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:33.129] Server  LOG      ✓ Compiled in 22ms
+[00:02:33.184] Browser ERROR   unhandledRejection: TypeError: clearAuth is not a function
+[00:02:35.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:36.269] Browser ERROR   unhandledRejection: TypeError: clearAuth is not a function
+[00:02:36.466] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:36.683] Browser ERROR   unhandledRejection: TypeError: clearAuth is not a function
+[00:02:36.712] Server  LOG      ✓ Compiled in 48ms
+[00:02:43.182] Server  LOG      ✓ Compiled in 17ms
+[00:02:46.782] Server  LOG      ✓ Compiled in 19ms
+[00:02:53.027] Server  LOG      ✓ Compiled in 11ms
+[00:02:58.220] Browser LOG     AdminPage: Auth OK, admin access granted
+[00:02:58.220] Browser LOG     AdminPage: Auth OK, admin access granted
+[00:03:04.694] Server  LOG      ✓ Compiled in 13ms
