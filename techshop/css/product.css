@@ -1,0 +1,216 @@
+.product-shell {
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.12);
+    border: 0;
+    overflow: hidden;
+}
+
+/* Картинка товара на детальной странице */
+.product-image-wrap {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.product-main-img {
+    max-width: 100%;
+    max-height: 460px;
+    object-fit: contain;
+    transition: transform 0.35s ease;
+}
+
+.product-shell:hover .product-main-img {
+    transform: scale(1.02);
+}
+
+/* Цена + наличие */
+.price-big {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.stock-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Кнопки */
+.btn-round {
+    border-radius: 999px;
+    padding-inline: 28px;
+    padding-block: 10px;
+    font-weight: 500;
+}
+
+.btn-round-primary {
+    background: linear-gradient(135deg, #007bff, #4c8dff);
+    border: 0;
+    color: #fff;
+}
+
+.btn-round-primary:hover {
+    background: linear-gradient(135deg, #0062d9, #3b7cff);
+    color: #fff;
+}
+
+/* Характеристики */
+.spec-card {
+    border-radius: 18px;
+    border: 1px solid #ececf1;
+    background: #fafafa;
+}
+
+.spec-card .card-header {
+    background: transparent;
+    border-bottom: 1px solid #ececf1;
+    font-weight: 600;
+}
+
+.product-specs p {
+    margin-bottom: 6px;
+}
+
+.section-title {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.item-title {
+    font-weight: 600;
+    color: #000;
+}
+
+/* Відгуки */
+.reviews-card {
+    border-radius: 18px;
+    border: 1px solid #ececf1;
+    background: #fafafa;
+    overflow: hidden;              /* обрежем детей по скруглению */
+}
+
+.reviews-card .card-header {
+    background: #f5f5f7;
+    border-bottom: 1px solid #ececf1;
+    font-weight: 600;
+}
+
+/* снимаем внешние бордеры у list-group, оставляем только разделители внутри */
+.reviews-card .list-group {
+    border-radius: 0;
+}
+
+.reviews-card .list-group-item {
+    border-left: 0;
+    border-right: 0;
+    border-color: #ececf1;
+}
+
+/* последний элемент не рисует нижнюю линию поверх рамки карточки */
+.reviews-card .list-group-item:last-child {
+    border-bottom: 0;
+}
+
+/* один айтем отзыва */
+.review-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* верхняя строка: имя + звёзды в одной линии */
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 4px;
+}
+
+.review-name {
+    font-weight: 600;
+}
+
+.review-text {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    /* текст теперь на всю ширину блока */
+}
+
+.review-rating {
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: #f6b400;
+}
+
+/* ================================
+   КАТАЛОГ / ПОИСК — КАРТОЧКИ ТОВАРОВ
+   ================================ */
+
+/* Оболочка карточки товара в каталоге і пошуку */
+.product-card {
+    border: none;
+    border-radius: 22px;
+    background: #fff;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Контейнер для картинки в карточке каталога/поиска */
+.product-img-box {
+    width: 100%;
+    height: 240px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 22px 22px 0 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Сама картинка в карточке каталога/поиска */
+.product-img-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform .3s ease;
+}
+
+.product-card:hover .product-img-box img {
+    transform: scale(1.04);
+}
+
+/* Сайдбар-карточки (категорії, фільтри) */
+.sidebar-card {
+    border-radius: 16px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+/* Зеленая "таблетка" наличия */
+.stock-pill {
+    background: #d4f5d3 !important;
+    color: #2f7a32 !important;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 18px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}

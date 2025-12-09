@@ -1,0 +1,46 @@
+.return-btn {
+    background: linear-gradient(135deg, #007bff, #0056d6);
+    color: #fff;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;           /* ❗ Робить кнопку не широкою */
+    transition: .25s ease;
+    box-shadow: 0 4px 14px rgba(0, 91, 234, 0.25);
+}
+
+.return-btn:hover {
+    background: linear-gradient(135deg, #0062d9, #004bbc);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 91, 234, 0.45);
+}
+
+.filters input,
+.filters select {
+    border-radius: 10px;
+}
+
+.filters button,
+.filters a.btn {
+    border-radius: 10px;
+}
+
+.stock-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 6px 16px;          /* уменьшил внутренние отступы */
+    background: #d4f5d3;
+    color: #2f7a32;
+
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 600;
+
+    line-height: 1;             /* плотность текста */
+    width: fit-content;         /* вот это — главное */
+    white-space: nowrap;
+}
